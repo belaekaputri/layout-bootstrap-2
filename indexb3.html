@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Halamanweb</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css" integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.1/css/all.css">
+    
+</head>
+<body>
+    <style>
+      *{
+        margin:0;
+        padding:0;
+        box-sizing: border-box;
+       }
+       body
+       {
+        background-color: black;
+       }
+      nav
+      {
+        background-color: black;
+      }
+      .jumbotron
+      {
+        background-image:url("gri.jpg");
+        height:500px;
+        padding-top: 130px;
+        background-size: cover;
+      }
+      hr
+      {
+        border:1px solid white;
+        width:10%;
+      }
+      h1.display-4,h1.display-5
+      {
+        font-family: serif;
+      }
+      .container
+      {
+      margin-top:-32px;
+      }
+      .row
+      {
+        display:flex;
+        flex-wrap:wrap;
+        width:100%;
+      }
+      .row .col
+      {
+        flex:20.3%;
+        width:auto;
+        overflow:hidden;
+        padding:0 1px;
+        height:50%;
+      }
+      .row .col img
+      {
+        width:100%;
+        height:100%;
+        margin:20px;
+        border-radius: 20px;
+        cursor: pointer;
+        filter: grayscale(1) brightness(0.8);
+      }
+      .card
+      {
+      background-color: black;
+      }
+      .row .col img:hover
+      {
+        filter: grayscale(0) brightness(1);
+      }
+    </style>
+        <!--Kritik dan sarannya ditunggu :)-->
+        <!--boleh ctrl+c karna sejujurnya sampai sekarang saya masih belajar setelah sekian lama hiatus hehehehehehe -->
+
+        <nav class="navbar navbar-expand-lg navbar-light fixed-top"><!--Bagian Navbar-->
+            <a class="navbar-brand text-white" href="#">Code With Me</a>
+            <button class="navbar-toggler bg-white" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon "></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+              <ul class="navbar-nav mr-auto">
+                <li class="nav-item active ">
+                  <a class="nav-link text-white" href="#">Home <span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-ite  active  ">
+                    <a class="nav-link text-white " href="#">Portfolio</a>
+                  </li>
+                <li class="nav-ite  active  ">
+                  <a class="nav-link text-white " href="#">About</a>
+                </li>
+                <li class="nav-ite  active  text-white">
+                    <a class="nav-link text-white" href="#">Code</a>
+                  </li>
+              </ul>
+              <form class="form-inline my-2 my-lg-0">
+                <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+                <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+              </form>
+            </div>
+        </nav>
+
+
+            <div class="jumbotron text-center text-white"><!--Bagian Jumbotron-->
+              <h1 class="display-4 mt-5 pt-5 "> &lt;CODE WITH ME/&gt;</h1>
+              <center><hr class="my-4 mt-n1"></center>
+            </div>
+
+
+          <div class="container "><!--Bagian konten-->
+            <div class="card rounded">
+              <div class="card-body text-secondary text-center p-4 "> 
+                This is some text within a card body. Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quam necessitatibus adipisci corporis explicabo quidem ullam aliquid,
+                 totam doloribus perspiciatis deserunt nesciunt modi earum cupiditate officiis ratione quasi neque assumenda dolores.
+                 Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur cupiditate dolorum, cumque eum dolor quibusdam 
+                 suscipit voluptatum ipsam natus, distinctio laboriosam? Culpa accusantium quos rem a quisquam nulla, laborum esse.
+                 Lorem ipsum dolor sit amet consectetur, adipisicing elit. Molestiae, porro? Voluptates quibusdam earum eaque ipsam voluptatibus
+                 sint soluta maiores magnam quia reiciendis! Porro, maxime deleniti molestiae ab earum magni sunt Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas earum maxime optio id vero numquam aliquid eaque corrupti
+                 voluptatum suscipit! Ratione voluptas eaque numquam! Illum quibusdam corporis consectetur odio nemo. Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus qui nulla commodi fuga obcaecati aut soluta, aliquam odio neque illum dolores nisi? Eius, non. Facilis labore debitis vitae tenetur laboriosam.
+                 Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores, harum sunt? Commodi non soluta officiis natus quas laudantium corporis? Nostrum dolore corrupti, pariatur sequi quod facilis quas blanditiis ipsum quaerat. Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum consequatur reiciendis velit est qui doloribus quaerat reprehenderit veritatis accusamus quas voluptates
+                 minus placeat numquam, consectetur eius nisi odio sint totam. Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dolor provident praesentium officiis laboriosam aperiam expedita earum a consectetur fugiat voluptas architecto atque, dolorem facilis natus! Neque reprehenderit vitae quo cupiditate.
+              </div>
+            </div>
+          </div>
+
+          <div class="container-fluid"><!--Bagian Gambar-->
+            <center><h1 class="display-5 text-white mt-4">Portfolio</h1></center> <br>
+            <div class="row mt-n3">
+              <div class="col">
+               <img src="https://images.unsplash.com/photo-1596003906949-67221c37965c?ixid=MXwxMjA3fDB8MHxzZWFyY2h8MXx8cHJvZ3JhbW1lcnxlbnwwfHwwfA%3D%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60" alt="">
+               <img src="https://images.unsplash.com/photo-1561494653-744c43aed0c1?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1929&q=80" alt="">
+               <img src="https://images.unsplash.com/photo-1599837565318-67429bde7162?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=634&q=80" alt="">
+               
+              </div>
+              <div class="col">
+                <img src="https://images.unsplash.com/photo-1519397154350-533cea5b8bff?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80" alt="">
+                <img src="https://images.unsplash.com/photo-1595675024853-0f3ec9098ac7?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=634&q=80" alt="">
+                <img src="https://images.unsplash.com/photo-1564865878688-9a244444042a?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80" >
+                <img src="https://images.unsplash.com/photo-1537498425277-c283d32ef9db?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1357&q=80">
+
+              </div>
+              <div class="col">
+                <img src="https://images.unsplash.com/photo-1562907550-096d3bf9b25c?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=675&q=80">
+                <img src="https://images.unsplash.com/photo-1523800503107-5bc3ba2a6f81?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80">
+                <img src="https://images.unsplash.com/photo-1526925539332-aa3b66e35444?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=701&q=80">
+              </div>
+            </div>
+          </div>
+
+          
+            <div class="card mt-n5  "><!--Bagian kontak-->
+              <div class="card-body text-center "><h1 class="display-5 text-white">Contact</h1>
+              <ul class="mt-n4">
+                <li class="text-center ml-n4">
+                  <a href="#"><i class=" fab fa-youtube  text-white  fa-3x mt-n5 "></i></a> <!--text-white class dari Bootstap bukan dari font-->
+                  <a href="#"> <i class="fab fa-linkedin  text-white   text-center  fa-3x  ml-4  mt-5"></i></a>
+                  <a href="#"> <i class="fas fa-envelope-square  text-white text-center  fa-3x  ml-4 mt-5"></i></a>
+                  <a href="#"> <i class="fab fa-twitter-square  text-white text-center  fa-3x  ml-4   mt-5 "></i></a>
+                </li>
+              </ul>
+              </div>
+          </div>
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.min.js" integrity="sha384-w1Q4orYjBQndcko6MimVbzY0tgp4pWB4lZ7lr30WKz0vr/aWKhXdBNmNb5D92v7s" crossorigin="anonymous"></script>    
+
+  </body>
+</html>
